@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:padding="4dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="4">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Fruit Name"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:layout_weight="1.3"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Price"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:layout_weight="0.9"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Quantity"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:layout_weight="0.9"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Total"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:layout_weight="0.9"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="4">
+
+                <TextView
+                    android:id="@+id/fruitname"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.3"
+                    android:textColor="@color/black"
+                    android:padding="2dp"
+                    android:text="Fruit Name"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Price"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/black"
+                    android:padding="2dp"
+                    android:id="@+id/fruitprice"
+                    android:background="@color/green"
+                    android:textSize="16sp"
+                    android:layout_weight="0.9"/>
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Quantity"
+                    android:id="@+id/fruitquantity"
+                    android:padding="2dp"
+                    android:textColor="@color/black"
+                    android:background="@color/green"
+                    android:textSize="16sp"
+                    android:layout_weight="0.9"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fruittotal"
+                    android:text="Total"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:background="@color/green"
+                    android:padding="2dp"
+                    android:textSize="16sp"
+                    android:layout_weight="0.9"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:textSize="2sp"
+                android:textStyle="bold"
+                android:padding="3dp"
+                android:background="@color/whitish"/>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MyApp" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/green</item>
+        <item name="colorOnPrimary">@color/white</item> <!-- This should remain white for both light and dark modes -->
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/white</item> <!-- This should remain white for both light and dark modes -->
+        <!-- Background color. -->
+        <item name="android:colorBackground">@color/white</item> <!-- This will automatically switch based on the mode -->
+        <item name="android:textColor">@color/black</item> <!-- This will automatically switch based on the mode -->
+        <!-- Define other theme attributes -->
+
+
+    </style>
+</resources>
