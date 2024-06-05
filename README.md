@@ -17,7 +17,7 @@ Prerequisites
 - Java Development Kit (JDK)<Br>
 Clone the Repository<Br>
 git clone https://github.com/nazimchouhan/FoodOrdering.git<Br>
-cd food-ordering-app
+cd FoodOrdering
 
 ## BUILD And RUN
 1) Open in Android Studio
