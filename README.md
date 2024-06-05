@@ -23,8 +23,8 @@ cd FoodOrdering
 1) Open in Android Studio
 2) Open Android Studio.
 3) Click on File > Open... and select the project directory.
-4) Build and Run Sync the project with Gradle files.
-Build the project by clicking Build > Make Project.
+4) Build and Run Sync the project with Gradle files.<Br>
+Build the project by clicking Build > Make Project.<Br>
 Run the app on an emulator or a physical device by clicking Run > Run 'app'.
 
 ## Technologies Used
