@@ -1,6 +1,6 @@
 Introduction<Br>
 The Food Ordering App is a mobile application developed for Android devices 
-that allows users to browse various food items, place orders, and track delivery status,
+that allows users to browse various fruit items, place orders, and track delivery status,
 The app is designed to provide a seamless and intuitive user experience for food ordering.
 
 #Features
