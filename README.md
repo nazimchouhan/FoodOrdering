@@ -14,9 +14,9 @@ Follow these steps to get a local copy of the project up and running:
 
 Prerequisites
 - Android Studio installed on your machine
-- Java Development Kit (JDK)
-Clone the Repository
-git clone https://github.com/nazimchouhan/FoodOrdering.git
+- Java Development Kit (JDK)<Br>
+Clone the Repository<Br>
+git clone https://github.com/nazimchouhan/FoodOrdering.git<Br>
 cd food-ordering-app
 
 ## BUILD And RUN
@@ -28,8 +28,8 @@ Build the project by clicking Build > Make Project.
 Run the app on an emulator or a physical device by clicking Run > Run 'app'.
 
 ## Technologies Used
-Programming Languages: Java
-Frameworks: Android SDK, XML
-Database: SQLite,Firebase-Realtime database
+Programming Languages: Java<Br>
+Frameworks: Android SDK, XML<Br>
+Database: SQLite,Firebase-Realtime database<Br>
 Tools: Android Studio, Git, Gradle
 
